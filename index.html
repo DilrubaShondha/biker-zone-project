@@ -27,14 +27,14 @@
     
 </style>
 </head>
-<header class=" h-24 flex justify-end  items-center mb-12">
+<header class="w-11/12 mx-auto h-24 flex justify-end  items-center mb-12">
     <!-- navbar starts -->
     <button class=" font-poppins text-base font-medium text-white bg-[#E76F51] px-6 py-2 rounded-md">Login</button>
 </header>
 <!-- header ends -->
-<body class="font-poppins w-11/12 mx-auto">
+<body class="font-poppins">
     <!-- banner starts -->
-     <section class="flex">
+     <section class="flex w-11/12 mx-auto">
         <!-- banner text starts -->
         <div class="w-1/2">
             <p class="text-[#E0E0E0] text-base font-small w-3/4 pt-40 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -47,7 +47,7 @@
      </section>
     <!-- banner ends -->
     <!-- features section starts -->
-     <section class="mt-20">
+     <section class="w-11/12 mx-auto mt-20">
         <h1 class="font-semibold text-4xl text-center">Featured Bikes In This Year</h1>
         <p class="text-center text-[#E76F51] text-sm font-semibold mb-2">Best bike collection</p>
         <div class="w-1/12 mx-auto border border-red-500"></div>
@@ -72,7 +72,7 @@
         <!-- bike-container ends -->
     </section>
     <!-- latest section starts -->
-     <section class="mt-20">
+     <section class=" w-11/12 mx-auto mt-20">
         <h1 class="font-semibold text-4xl text-center">Latest News</h1>
         <!-- bike-container starts -->
          <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-16">
@@ -110,7 +110,7 @@
         <!-- bike-container ends -->
     </section>
     <!-- clients section starts -->
-     <section class="mt-20 mb-20">
+     <section class="w-11/12 mx-auto mt-20 mb-20">
         <h1 class="font-semibold text-4xl text-center"><span class="text-[#0A0826]">Happy</span> <span class="text-[#E76F51] mb-12">Clients says</span></h1>
         <!-- review container starts -->
          <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16">
@@ -178,11 +178,11 @@
     </section>
     <!-- client section ends -->
      <!-- question section starts -->
-     <section class="mb-12">
+     <section class="w-11/12 mx-auto mb-12">
         <h1 class="font-semibold text-4xl text-center mb-24"><span class="text-[#0A0826]">Frequently Asked </span> <span class="text-[#E76F51] mb-12">Questions</span></h1>
         <div class="flex space-x-12 inter-font">
             <div class="w-1/2">
-                <img class="w-3/5 m-auto mt-16" src="./images/others/faq.png" alt="">
+                <img class="w-3/5 mx-auto mt-16 border-dashed border-2 border-light-blue-500 p-4" src="./images/others/faq.png" alt="">
             </div>
             <!-- card-container section -->
             <div class="w-1/2">
@@ -222,9 +222,41 @@
             </div>
         </div>
      </section>
-
      <!-- question section ends -->
-     
-    
 </body>
+<footer class="bg-[#0B0D17] w-full">
+    <!-- footer container -->
+    <div class="w-11/12 mx-auto flex">
+    <!-- footer left part -->
+    <div class="w-3/4 ">
+    <!-- first part -->
+     <div class="text-white text-base mt-16">
+        <ul class="flex gap-8">
+            <li>Download Now</li>
+            <li>Login</li>
+        </ul>
+     </div>
+     <!-- second part -->
+     <div class="text-white text-base my-8">
+        <ul class="flex gap-6">
+            <li>About</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Careers</li>
+            <li>Helps</li>
+            <li>Privacy Policy</li>
+        </ul>
+     </div>
+     <!-- third part -->
+     <div><p class="text-[#D9DBE1] text-base">© 2020 bike. All rights reserved</p></div>
+    </div> 
+    <!-- footer right portion starts -->
+     <div class="w-1/4">
+        <h1 class="text-[#D9DBE1] text-lg font-medium mt-16">Get the App</h1>
+        <img class="w-36 h-10 mb-5 mt-7" src="./images/others/android.png" alt="">
+        <img class="w-36 h-10 mb-20" src="./images/others/ios.png" alt="">
+     </div>
+    </div>
+    <!-- footer left part ends -->
+</footer>
 </html>
