@@ -7,10 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- font inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
     .font-poppins {
         font-family: "Poppins", sans-serif;
       }
@@ -18,6 +21,9 @@
         color: #E77C40;
         font-size: 20px;
     }
+    .inter-font {
+        font-family: "Inter", sans-serif;
+      }
     
 </style>
 </head>
@@ -173,13 +179,46 @@
     <!-- client section ends -->
      <!-- question section starts -->
      <section class="mb-12">
-        <h1 class="font-semibold text-4xl text-center"><span class="text-[#0A0826]">Frequently Asked </span> <span class="text-[#E76F51] mb-12">Questions</span></h1>
-        <div>
-            <div>
-                <img src="./images/others/faq.png" alt="">
+        <h1 class="font-semibold text-4xl text-center mb-24"><span class="text-[#0A0826]">Frequently Asked </span> <span class="text-[#E76F51] mb-12">Questions</span></h1>
+        <div class="flex space-x-12 inter-font">
+            <div class="w-1/2">
+                <img class="w-3/5 m-auto mt-16" src="./images/others/faq.png" alt="">
             </div>
-            <div>
-                
+            <!-- card-container section -->
+            <div class="w-1/2">
+                <!-- first card -->
+                 <div class="border border-[#D5E5FB] rounded-lg p-5 mb-4">
+                    <div class="flex justify-between px-4">
+                        <div><p class="text-[#383838] text-lg font-medium">What are the most important things I should
+                            know about riding a bike?</p></div>
+                        <div><i class="fa-solid fa-chevron-up"></i></div>
+                    </div>
+                    <p class="text-[#7E848C] text-base mb-3 pl-4 pr-8">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                 </div>
+                 <!-- second card -->
+                 <div class="border border-[#D5E5FB] rounded-lg p-5 mb-4">
+                    <div class="flex justify-between px-4">
+                        <div><p class="text-[#383838] text-lg font-medium">What are the most important things I should
+                            know about riding a bike?</p></div>
+                        <div><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                 </div>
+                 <!-- third card -->
+                 <div class="border border-[#D5E5FB] rounded-lg p-5 mb-4">
+                    <div class="flex justify-between px-4">
+                        <div><p class="text-[#383838] text-lg font-medium">What are the most important things I should
+                            know about riding a bike?</p></div>
+                        <div><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                 </div>
+                 <!-- fourth card -->
+                 <div class="border border-[#D5E5FB] rounded-lg p-5 mb-4">
+                    <div class="flex justify-between px-4">
+                        <div><p class="text-[#383838] text-lg font-medium">What are the most important things I should
+                            know about riding a bike?</p></div>
+                        <div><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                 </div>
             </div>
         </div>
      </section>
