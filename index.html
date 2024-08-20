@@ -27,14 +27,15 @@
     
 </style>
 </head>
-<header class="w-11/12 mx-auto h-24 flex justify-end  items-center mb-12">
+<header class="w-full md:w-11/12 mx-auto h-24 flex justify-end  items-center pb-12 bg-[#264653] md:bg-white">
     <!-- navbar starts -->
-    <button class=" font-poppins text-base font-medium text-white bg-[#E76F51] px-6 py-2 rounded-md">Login</button>
+    <button class="hidden md:block font-poppins text-base font-medium text-white bg-[#E76F51] px-6 py-2 rounded-md">Login</button>
+    <div class="md:hidden"><i class="fa-solid fa-bars pr-4" style="color: white;"></i></div>
 </header>
 <!-- header ends -->
 <body class="font-poppins">
     <!-- banner starts -->
-     <section class="flex w-11/12 mx-auto">
+     <section class="flex w-full md:w-11/12 mx-auto bg-[#264653] md:bg-white">
         <!-- banner text starts -->
         <div class="w-1/2">
             <p class="text-[#E0E0E0] text-base font-small w-3/4 pt-40 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -54,17 +55,17 @@
         <!-- bike-container starts -->
          <div class="grid grid-cols-1 md:grid-cols-3 gap-32 mt-20">
             <!-- each bike starts-->
-             <div>
+             <div class="flex justify-center md:flex-none">
                 <img src="./images/others/feature-bike.png" alt="">
              </div>
             <!-- each bike ends -->
              <!-- each bike starts-->
-             <div class="w-full h-full">
+             <div class="flex justify-center md:flex-none">
                 <img src="./images/others/feature-bike.png" alt="">
              </div>
             <!-- each bike ends -->
              <!-- each bike starts-->
-             <div>
+             <div class="flex justify-center md:flex-none">
                 <img src="./images/others/feature-bike.png" alt="">
              </div>
             <!-- each bike ends -->
@@ -179,19 +180,19 @@
     <!-- client section ends -->
      <!-- question section starts -->
      <section class="w-11/12 mx-auto mb-12">
-        <h1 class="font-semibold text-4xl text-center mb-24"><span class="text-[#0A0826]">Frequently Asked </span> <span class="text-[#E76F51] mb-12">Questions</span></h1>
-        <div class="flex space-x-12 inter-font">
-            <div class="w-1/2">
-                <img class="w-3/5 mx-auto mt-16 border-dashed border-2 border-light-blue-500 p-4" src="./images/others/faq.png" alt="">
+        <h1 class="font-semibold text-4xl text-center mb-4 md:mb-24"><span class="text-[#0A0826]">Frequently Asked </span> <span class="text-[#E76F51] mb-12">Questions</span></h1>
+        <div class="flex flex-col md:flex-row md:space-x-12 inter-font">
+            <div class=" w-full md:w-1/2">
+                <img class="w-full ms-auto md:w-3/5 mx-auto mt-4 md:mt-16 mb-12 md:mb-0 border-dashed border-2 border-light-blue-500 p-4" src="./images/others/faq.png" alt="">
             </div>
             <!-- card-container section -->
-            <div class="w-1/2">
+            <div class="w-full md:w-1/2">
                 <!-- first card -->
                  <div class="border border-[#D5E5FB] rounded-lg p-5 mb-4">
                     <div class="flex justify-between px-4">
                         <div><p class="text-[#383838] text-lg font-medium">What are the most important things I should
                             know about riding a bike?</p></div>
-                        <div><i class="fa-solid fa-chevron-up"></i></div>
+                        <div><i class="fa-solid fa-chevron-up ml-2 md:ml-0"></i></div>
                     </div>
                     <p class="text-[#7E848C] text-base mb-3 pl-4 pr-8">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
                  </div>
@@ -226,9 +227,9 @@
 </body>
 <footer class="bg-[#0B0D17] w-full">
     <!-- footer container -->
-    <div class="w-11/12 mx-auto flex">
+    <div class="w-11/12 mx-auto flex flex-col md:flex-rows">
     <!-- footer left part -->
-    <div class="w-3/4 ">
+    <div class="w-full md:w-3/4 ">
     <!-- first part -->
      <div class="text-white text-base mt-16">
         <ul class="flex gap-8">
@@ -238,12 +239,12 @@
      </div>
      <!-- second part -->
      <div class="text-white text-base my-8">
-        <ul class="flex gap-6">
+        <ul class="grid grid-cols-3 md:grid-cols-7 gap-4 md:gap-6">
             <li>About</li>
             <li>Features</li>
             <li>Pricing</li>
+            <li>Help</li>
             <li>Careers</li>
-            <li>Helps</li>
             <li>Privacy Policy</li>
         </ul>
      </div>
@@ -251,7 +252,7 @@
      <div><p class="text-[#D9DBE1] text-base">© 2020 bike. All rights reserved</p></div>
     </div> 
     <!-- footer right portion starts -->
-     <div class="w-1/4">
+     <div class="w-full md:w-1/4">
         <h1 class="text-[#D9DBE1] text-lg font-medium mt-16">Get the App</h1>
         <img class="w-36 h-10 mb-5 mt-7" src="./images/others/android.png" alt="">
         <img class="w-36 h-10 mb-20" src="./images/others/ios.png" alt="">
